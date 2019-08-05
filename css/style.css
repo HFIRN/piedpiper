@@ -1,0 +1,23 @@
+body {
+	min-width: 2011px;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 37px;
+	font-weight: 400px;
+	color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.header {
+	background-color: 007765;
+	color: #ffffff;	
+}
+
+.menu li{
+	list-style: none;
+}
+
+.main_navigation {
+	display: flex;
+}
