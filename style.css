@@ -1,28 +1,44 @@
 body {
-	min-width: 2011px;
+	min-width: 1219px;
 	margin: 0;
 	font-family: "Roboto", sans-serif;
 	font-size: 37px;
 	font-weight: 400;
 	color: #000000;
 	background-color: #ffffff;
-	color: #000000;
 }
 
-.header {
-	background-color: #007765;
+.wrapper {
+	padding: 20px 55px 20px 54px;
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.header {	
+	position: fixed;
+	top: 0;
+ 	left: 0;/*попробовать убрать топ и лефт  после прорисовки почти всего сайта*/
+ 	width: 100%; /* от начала до конца этой строчки хедер делается фиксированным и растягивается на прежнюю заданную ширину*/
+	background: #007765;
 	color: #ffffff;	
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 28px;
 	font-style: normal;
-	text-align: center;
 }
 
 .menu li{
 	list-style: none;
 }
 
-.main_navigation {
+.menu {
+	position: relative;
+	top: -10px;
+	width: 420px;
+	float: right;
+	display: -webkit-flex;
 	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	justify-content: space-around;
 }
