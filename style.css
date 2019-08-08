@@ -9,12 +9,14 @@ body {
 }
 
 .wrapper {
-	padding: 20px 55px 20px 54px;
+	padding-left: 55px;
+	padding-right: 54px;
 	max-width: 1110px;
 	margin: 0 auto;
 }
 
 .header {	
+	padding-top: 20px;
 	position: fixed;
 	top: 0;
  	left: 0;/*попробовать убрать топ и лефт  после прорисовки почти всего сайта*/
@@ -25,7 +27,7 @@ body {
 	font-weight: 500;
 	line-height: 28px;
 	font-style: normal;
-}
+}	
 
 .menu li{
 	list-style: none;
@@ -41,4 +43,29 @@ body {
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
 	justify-content: space-around;
+}
+
+.logo {
+	position: fixed;
+	width: 184px;
+	height: 45px;
+	background-color: #007765;
+	margin: 0;
+}
+
+.jumbotron {
+	position: relative;
+	top: 48px;
+	min-height: 403px;
+	background: url(img/Jumbotron.jpg);
+	background-position: center;
+}
+h1 {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 72px;
+	line-height: 84px;
+	padding: 160px 396px;
 }
