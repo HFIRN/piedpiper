@@ -34,19 +34,20 @@ body {
 }
 
 .menu {
-	position: relative;
-	top: -10px;
-	width: 420px;
 	float: right;
-	display: -webkit-flex;
-	display: flex;
+	width: 420px;
+	display: -webkit-flex;	
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
 	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top:-40px;
 }
 
 .logo {
-	position: fixed;
+	
 	width: 184px;
 	height: 45px;
 	background-color: #007765;
@@ -54,12 +55,10 @@ body {
 }
 
 .jumbotron {
-	position: relative;
-	top: 48px;
-	min-height: 403px;
 	background: url(img/Jumbotron.jpg);
-	background-position: center;
+	margin: 0 auto;
 }
+
 h1 {
 	text-align: center;
 	color: #ffffff;
@@ -68,4 +67,43 @@ h1 {
 	font-size: 72px;
 	line-height: 84px;
 	padding: 160px 396px;
+	margin: 0;
 }
+
+.the-problem {
+	background: #eeeeee;
+}
+
+h2 {
+	color: #007765;
+	text-align: center;
+	font-size: 64px;
+	line-height: 75px;
+	font-weight: 500;
+	font-style: normal;
+	margin: 0;
+	padding-top: 50px;
+}
+
+.the-problem p {
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.hero {
+	background: url(img/hero.jpg);
+	padding: 100px 0;
+}
+
+.hero p {
+	color: #ffffff;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+}
+
